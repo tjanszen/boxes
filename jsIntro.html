@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Introduction to HTML and CSS: Syntax</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="homestyle.css">
+		<link rel="stylesheet" href="jsIntro.css">
+	</head>
+	<body>
+		<section id="container">
+
+			<div id="boxwrapper">
+
+  	<div id="formContainer">
+    	<form id="data">
+      	<div class="tableRow">
+        <div class="tableCell">
+          <p>Pick a name for your Amazing Box</p>
+          <input type="text" id="name" size="20">
+      	</div>
+
+        <div class="tableCell">
+          <p>Pick a color for your Amazing Box</p>
+          <div id="colorOptions">
+            <input type="radio" value="#ff0033" name="color" id="red">
+            	<label for="red"></label>
+            <input type="radio" value="#ff9900" name="color" id="orange">
+            	<label for="orange"></label>
+            <input type="radio" value="#ffff00" name="color" id="yellow">
+            	<label for="yellow"></label>
+            <input type="radio" value="#00cc00" name="color" id="green">
+            	<label for="green"></label>
+            <input type="radio" value="#3399ff" name="color" id="blue">
+            	<label for="blue"></label>
+            <input type="radio" value="#cc0099" name="color" id="indigo">
+            	<label for="indigo"></label>
+            <input type="radio" value="#990099" name="color" id="violet">
+            	<label for="violet"></label>
+            </div>
+        </div>
+
+        <div class="tableCell">
+          <p>How many boxes do you want to ceate?</p>
+          <div id="numberOptions">
+          <input type="radio" id="five" name="amount" value="5">
+            <label for="five">5</label>
+          <input type="radio" id="ten" name="amount" value="10">
+            <label for="ten">10</label>
+          <input type="radio" id="fifteen" name="amount" value="15">
+            <label for="fifteen">15</label>
+          </div>
+        </div>
+
+        </div>
+
+        <div class="tableRow" id="buttonContainer">
+        	<div class="buttonStyle">
+	          <input type="button" id="generateButton" value="Generate!">
+	          <input type="button" id="clearButton" value="Clear">
+	        </div>
+        </div>
+    </form>
+    </div>
+
+   <div id="sceneContainer">
+	    <div id="scene">
+	    </div>
+   </div>
+
+    </div>
+
+
+	</section>
+	<script src="jsIntro.js"></script>
+	</body>
+</html>
