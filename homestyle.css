@@ -1,0 +1,174 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/****** CSS for homepage Body ******/
+body{
+	margin:0;
+	font-family: Arial, sans-serif;
+	background-color: #f9f9f9;
+}
+
+/****** CSS for homepage Header ******/
+
+header#homePage_header {
+	background:#a60028;
+	border-bottom: 2px solid rgba(0,0,0,.1);
+	box-shadow: 0px 1px 50px #5e5e5e;
+	display: block;
+	line-height: 20px;
+	overflow: hidden;
+	width: 100%;
+	text-align: left;
+	padding:0px;
+	margin: 0px;
+}
+nav.navwrapper{
+	padding: 0px;
+	margin: 0px;
+}
+
+nav#homePage_upperNav{
+	background-color: black;
+	margin: 0px;
+}
+	nav#homePage_bottomNav ul{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin: 0px;
+}
+	nav#homePage_upperNav ul{
+	padding-top: 2px;
+	margin: 0px;
+}
+nav > ul {
+	list-style-type: none;
+	margin: 0px;
+}
+		nav >ul > li.homeimage {
+			color: #e5e5e5;
+			display: block;
+			letter-spacing: 1px;
+			padding:0px 0px 0px 15px;
+			margin: 0px;
+			}
+			
+
+nav#homePage_bottomNav li.name{
+	color:#fff;
+	font-family: Arial, sans-serif;
+	font-weight:normal;
+	font-size: 1.3em;
+	margin: 0px 0px 0px 30px;
+	padding:0px 0px 15px 0px;
+}
+
+/****** CSS for homepage body ******/
+
+section#homewrapper{
+	max-width:850px;
+	margin:0px auto;
+	box-shadow: 0 1px 6px rgba(0,0,0,0.15);
+}	
+
+div#homepageTable{
+	display:table;
+	border-collapse:separate;
+	border-spacing:20px 20px;
+	margin: 20px auto;
+}
+
+	div.tableRow{
+		display:table-row;
+	}	
+	div.tableRow section.tablecell{
+		display: table-cell;
+		width:650px;
+		height:60px;
+		background-color: #cccccc; 
+		text-align: center;
+		}
+
+		div.tableRow section.tablecell a,
+		div.tableRow section.tablecell a:visited
+		{
+			text-decoration: none;
+		}
+
+		div.tableRow section.tablecell:hover{
+			box-shadow: inset 0 0 10px #000000;
+		}
+h2{
+	color:#fff;
+	font-family: Arial, sans-serif;
+	font-weight: normal;
+	line-height: 1em;
+	font-size: 2em;
+	padding-top: 13px;
+	padding-bottom: 13px;
+}
+
+
+
+/****** CSS for homepage Footer ******/
+footer {
+	background:#a60028;
+	box-shadow: 0px 1px 50px #5e5e5e;
+	display: block;
+	height:60px;
+	margin-top: 2em;
+}
+
+
+
+
+
+
+
+
+
